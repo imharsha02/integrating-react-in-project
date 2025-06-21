@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Counter - Vanilla JS + React</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- React CDN -->
+    <script
+      crossorigin
+      src="https://cdnjs.cloudflare.com/ajax/libs/react/18.2.0/umd/react.production.min.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js"
+    ></script>
+    <!-- Babel for JSX transformation -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.23.5/babel.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Counter</h1>
+
+      <div class="counter-app">
+        <!-- Counter display section -->
+        <div id="counter-display"></div>
+
+        <!-- Control buttons section -->
+        <div class="button-controls">
+          <button id="decrement-btn">-</button>
+          <button id="increment-btn">+</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Load JavaScript files -->
+    <script type="text/JavaScript" src="./vanilla-js.js"></script>
+    <script type="text/babel" src="./react-code.js"></script>
+  </body>
+</html>
